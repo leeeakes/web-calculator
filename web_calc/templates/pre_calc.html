@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lee's Simple Web Calculator</title>
+  </head>
+  <body>
+    <form action="/post_calc" method="POST">
+      <p>
+        <label for="num1-input">Gimme a number...</label>
+      </p>
+      <p>
+        <input type="float" id="number1" name="number1" value=>
+      </p>
+      <p>
+        <label for="num2-input">Gimme another number...</label>
+      </p>
+      <p>
+        <input type="float" id="number2" name="number2" value=>
+      </p>
+      <p>
+        <label for="operation">What operation do you want?</label>
+      </p>
+      <p>
+        <select id="operator" name="operator">
+                   <option value="+">+</option>
+                   <option value="-">_</option>
+                   <option value="*">*</option>
+                   <option value="/">/</option>
+      </p>
+      <p>
+        <input type="submit" value="Calculate">
+      </p>
+    </form>
+  </body>
+</html>
